@@ -1,0 +1,108 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    text-decoration:none;
+    text-align: center;
+    color: rgb(155, 108, 108);
+}
+.main{
+
+    margin-top: 1%;
+}
+
+#toggler{
+    margin-top: 3px;
+    margin-bottom: auto;
+    width: 30%;
+    float: right;
+}
+
+
+nav h1{
+    display: inline;
+    margin-right:auto;
+    
+   
+    
+}
+.navbar{
+    background-color:rgb(207, 216, 224);
+    padding: 10px;
+
+}
+
+
+
+.burger {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px;
+    
+    margin-left: auto;
+
+}
+
+
+ul li {
+    list-style: none;
+    text-align: center;
+  
+}
+
+.navbar-list{
+    padding-top: 5px;
+}
+
+
+.navbar-item{
+    margin-top: 8px;
+}
+
+.sub-heading{
+ margin-left: 5px;
+
+}
+
+
+
+
+.new-comics{
+    display: flex;
+    
+    -webkit-box-flex: initial;
+    height: 10%;
+    
+    
+}
+.comics{
+max-height: 100%;
+width:25%;
+margin-top: 5px;
+    
+    margin-left: 5px;
+    
+
+}
+.comics a img{
+    border: solid rgb(216, 204, 204) 1px;
+    
+}
+
+
+
+
+footer{
+    background-color:rgb(207, 216, 224);
+    width: 100%;
+    height: 70px;
+}
+
